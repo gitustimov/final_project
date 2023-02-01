@@ -1,0 +1,4 @@
+Уважаемый пользователь{{ user.username }}
+
+Для просмотра пройдите по ссылке
+{{ host }}{% url 'main:profile_bb_detail' pk=comment.bb.pk %}
